@@ -121,8 +121,7 @@ namespace test
             {
                 while (current != null && counter != index)
                 {
-                    counter++;
-                    count--;
+                    counter++;                  
 
                     previous = current;
                     current = current.Next;
@@ -134,7 +133,7 @@ namespace test
             {
                 head = current.Next;
             }
-
+            count--;
         }
 
         // Метод для получения элемента списка по индексу.
